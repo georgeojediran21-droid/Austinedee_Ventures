@@ -1,0 +1,3515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Austindee Ventures provides career day costumes, graduation gowns, and school event outfits for children in Ghana." />
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
+  <meta http-equiv="Permissions-Policy" content="camera=(), microphone=(), geolocation=(), payment=(), usb=()" />
+  <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+  <title>Austindee Ventures | Kids Career Day & Graduation Outfits</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" />
+
+  <style>
+    :root {
+      --navy: #08204a;
+      --blue: #1155cc;
+      --gold: #f5a400;
+      --green: #18a957;
+      --ink: #101828;
+      --muted: #667085;
+      --line: #e4e7ec;
+      --soft: #f5f8ff;
+      --white: #ffffff;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background: var(--white);
+      color: var(--ink);
+      font-family: "Poppins", Arial, sans-serif;
+      overflow-x: hidden;
+      width: 100%;
+    }
+
+    img,
+    video {
+      display: block;
+      max-width: 100%;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .navbar {
+      align-items: center;
+      background: rgba(255, 255, 255, 0.96);
+      border-bottom: 1px solid var(--line);
+      display: flex;
+      gap: 24px;
+      justify-content: space-between;
+      padding: 18px 7%;
+      position: sticky;
+      top: 0;
+      z-index: 20;
+    }
+
+    .logo {
+      align-items: center;  
+      color: var(--navy);
+      display: inline-flex;
+      font-size: 26px;
+      gap: 12px;
+      font-weight: 800;
+      white-space: nowrap;
+    }
+
+    .logo img {
+      border-radius: 50%;
+      box-shadow: 0 8px 20px rgba(8, 32, 74, 0.12);
+      height: 54px;
+      object-fit: cover;
+      width: 54px;
+    }
+
+    .logo span {
+      color: var(--gold);
+    }
+
+    .nav-links {
+      align-items: center;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 22px;
+      font-size: 15px;
+      font-weight: 600;
+      justify-content: flex-end;
+      min-width: 0;
+    }
+
+    .nav-links a {
+      color: #26344d;
+    }
+
+    .nav-links .nav-link {
+      color: #26344d;
+    }
+
+    .navbar-toggler {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      box-shadow: none;
+      padding: 8px 10px;
+    }
+
+    .navbar-toggler:focus {
+      box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.16);
+    }
+
+    .nav-links a:hover {
+      color: var(--blue);
+    }
+
+    .nav-cta {
+      background: var(--green);
+      border-radius: 999px;
+      color: var(--white) !important;
+      padding: 10px 16px;
+    }
+
+    .hero {
+      align-items: center;
+      background:
+        linear-gradient(90deg, rgba(8, 32, 74, 0.92), rgba(17, 85, 204, 0.62)),
+        url("design-02.jpeg") center/cover;
+      color: var(--white);
+      display: grid;
+      min-height: 86vh;
+      padding: 90px 7% 70px;
+    }
+
+    .hero-content {
+      max-width: 760px;
+    }
+
+    .eyebrow {
+      color: #ffd78a;
+      font-size: 14px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      margin-bottom: 14px;
+      text-transform: uppercase;
+    }
+
+    .hero h1 {
+      font-size: clamp(42px, 7vw, 82px);
+      line-height: 1.02;
+      margin-bottom: 24px;
+      max-width: 850px;
+    }
+
+    .hero p {
+      color: #eef4ff;
+      font-size: clamp(16px, 2vw, 20px);
+      line-height: 1.8;
+      max-width: 700px;
+    }
+
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      margin-top: 32px;
+    }
+
+    .btn {
+      align-items: center;
+      border: 0;
+      border-radius: 999px;
+      cursor: pointer;
+      display: inline-flex;
+      font-weight: 700;
+      justify-content: center;
+      min-height: 48px;
+      padding: 13px 22px;
+      text-align: center;
+      transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+    }
+
+    .btn:hover {
+      transform: translateY(-2px);
+    }
+
+    .btn-primary {
+      background: var(--gold);
+      box-shadow: 0 14px 30px rgba(245, 164, 0, 0.28);
+      color: #201400;
+    }
+
+    .btn-secondary {
+      background: var(--white);
+      color: var(--navy);
+    }
+
+    .section {
+      padding: clamp(64px, 8vw, 88px) 7%;
+    }
+
+    .section-header {
+      margin: 0 auto 44px;
+      max-width: 760px;
+      text-align: center;
+    }
+
+    .section-header h2 {
+      color: var(--navy);
+      font-size: clamp(30px, 4vw, 48px);
+      line-height: 1.15;
+      margin-bottom: 12px;
+    }
+
+    .section-header p {
+      color: var(--muted);
+      font-size: 17px;
+      line-height: 1.7;
+    }
+
+    .about-grid,
+    .service-grid,
+    .contact-grid {
+      display: grid;
+      gap: 24px;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .info-panel,
+    .service-card,
+    .contact-card {
+      background: var(--white);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 30px;
+    }
+
+    .card {
+      --bs-card-bg: transparent;
+      --bs-card-border-width: 0;
+      color: inherit;
+    }
+
+    .row {
+      margin-left: 0;
+      margin-right: 0;
+    }
+
+    .info-panel h3,
+    .service-card h3,
+    .contact-card h3 {
+      color: var(--navy);
+      font-size: 22px;
+      margin-bottom: 12px;
+    }
+
+    .info-panel p,
+    .service-card p,
+    .contact-card p {
+      color: #475467;
+      line-height: 1.8;
+    }
+
+    .services {
+      background: var(--soft);
+    }
+
+    .service-grid {
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+
+    .service-icon {
+      align-items: center;
+      background: #fff4d8;
+      border-radius: 50%;
+      color: #9a6100;
+      display: flex;
+      font-size: 26px;
+      font-weight: 800;
+      height: 58px;
+      justify-content: center;
+      margin-bottom: 18px;
+      width: 58px;
+    }
+
+    .gallery-showcase {
+      background: #ffffff;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      box-shadow: 0 24px 70px rgba(16, 24, 40, 0.12);
+      overflow: hidden;
+      position: relative;
+    }
+
+    .gallery-toolbar {
+      align-items: center;
+      background: #fbfcff;
+      border-bottom: 1px solid var(--line);
+      display: flex;
+      gap: 16px;
+      justify-content: space-between;
+      padding: 18px 20px;
+    }
+
+    .gallery-count {
+      color: var(--muted);
+      font-size: 15px;
+      font-weight: 600;
+    }
+
+    .gallery-controls {
+      display: flex;
+      gap: 10px;
+    }
+
+    .gallery-button {
+      align-items: center;
+      background: var(--navy);
+      border: 0;
+      border-radius: 50%;
+      color: var(--white);
+      cursor: pointer;
+      display: inline-flex;
+      font-size: 24px;
+      height: 44px;
+      justify-content: center;
+      line-height: 1;
+      transition: background 0.2s ease, transform 0.2s ease;
+      width: 44px;
+    }
+
+    .gallery-button:hover {
+      background: var(--blue);
+      transform: translateY(-2px);
+    }
+
+    .gallery-viewport {
+      background:
+        linear-gradient(135deg, rgba(8, 32, 74, 0.08), rgba(245, 164, 0, 0.1)),
+        #f8fbff;
+      overflow: hidden;
+      padding: 22px;
+      position: relative;
+    }
+
+    .gallery-track {
+      aspect-ratio: 16 / 9;
+      background: #071832;
+      border-radius: 8px;
+      min-height: 420px;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .gallery-card {
+      background: #071832;
+      inset: 0;
+      opacity: 0;
+      overflow: hidden;
+      position: absolute;
+      transform: scale(1.01);
+      transition: opacity 0.7s ease, transform 0.7s ease;
+    }
+
+    .gallery-card img {
+      height: 100%;
+      object-fit: contain;
+      object-position: center top;
+      width: 100%;
+    }
+
+    .gallery-card.is-active {
+      opacity: 1;
+      transform: scale(1);
+      z-index: 1;
+    }
+
+    .gallery-caption {
+      background: linear-gradient(180deg, rgba(7, 24, 50, 0), rgba(7, 24, 50, 0.82));
+      bottom: 0;
+      color: var(--white);
+      font-size: 15px;
+      font-weight: 700;
+      left: 0;
+      padding: 54px 24px 22px;
+      position: absolute;
+      right: 0;
+    }
+
+    .gallery-progress {
+      background: #e8eefb;
+      border-radius: 999px;
+      height: 7px;
+      margin: 0 20px 20px;
+      overflow: hidden;
+    }
+
+    .gallery-progress span {
+      background: var(--gold);
+      border-radius: inherit;
+      display: block;
+      height: 100%;
+      transition: width 0.65s ease;
+      width: 0;
+    }
+
+    .gallery-thumbnails {
+      display: grid;
+      gap: 10px;
+      grid-auto-columns: 86px;
+      grid-auto-flow: column;
+      overflow-x: auto;
+      padding: 0 20px 20px;
+      scrollbar-width: thin;
+    }
+
+    .gallery-thumb {
+      background: transparent;
+      border: 2px solid transparent;
+      border-radius: 8px;
+      cursor: pointer;
+      height: 74px;
+      overflow: hidden;
+      padding: 0;
+    }
+
+    .gallery-thumb img {
+      height: 100%;
+      object-fit: cover;
+      width: 100%;
+    }
+
+    .gallery-thumb.is-active {
+      border-color: var(--gold);
+    }
+
+    .remarks {
+      background: #ffffff;
+    }
+
+    .remarks-grid {
+      display: grid;
+      gap: 22px;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .remark-card {
+      background:
+        linear-gradient(180deg, rgba(255, 255, 255, 0.96), rgba(255, 255, 255, 0.88));
+      border: 1px solid rgba(217, 226, 239, 0.9);
+      border-radius: 8px;
+      box-shadow: 0 18px 48px rgba(8, 23, 51, 0.08);
+      padding: 30px;
+      position: relative;
+    }
+
+    .remark-card::before {
+      color: var(--gold);
+      content: "\201C";
+      font-size: 62px;
+      font-weight: 800;
+      left: 24px;
+      line-height: 1;
+      position: absolute;
+      top: 18px;
+    }
+
+    .remark-card p {
+      color: #344054;
+      font-size: 17px;
+      line-height: 1.8;
+      padding-top: 42px;
+    }
+
+    .remark-card h3 {
+      color: var(--navy);
+      font-size: 15px;
+      margin-top: 20px;
+    }
+
+    .locations {
+      background: var(--navy);
+      color: var(--white);
+      padding: 70px 7%;
+      text-align: center;
+    }
+
+    .locations h2 {
+      font-size: clamp(30px, 4vw, 46px);
+      margin-bottom: 18px;
+    }
+
+    .locations p {
+      color: #dbe6ff;
+      font-size: 18px;
+      line-height: 1.9;
+      margin: 0 auto;
+      max-width: 900px;
+    }
+
+    .contact {
+      background: #fbfcff;
+    }
+
+    .contact-grid {
+      align-items: stretch;
+      grid-template-columns: 1.1fr 0.9fr;
+    }
+
+    .contact-card.feature {
+      background: var(--navy);
+      color: var(--white);
+    }
+
+    .contact-card.feature h2 {
+      font-size: clamp(30px, 4vw, 46px);
+      line-height: 1.2;
+      margin-bottom: 16px;
+    }
+
+    .contact-card.feature p {
+      color: #dbe6ff;
+      font-size: 17px;
+      line-height: 1.8;
+      margin-bottom: 28px;
+    }
+
+    .contact-list {
+      display: grid;
+      gap: 14px;
+    }
+
+    .contact-list a {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      color: var(--navy);
+      font-weight: 700;
+      padding: 16px;
+    }
+
+    .contact-list a:hover {
+      background: var(--soft);
+    }
+
+    footer {
+      background: #061631;
+      color: #dbe6ff;
+      padding: 28px 7%;
+      text-align: center;
+    }
+
+    @media (max-width: 980px) {
+      .navbar {
+        gap: 16px;
+        padding: 16px 5%;
+      }
+
+      .nav-links {
+        gap: 14px;
+      }
+
+      .service-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .gallery-track {
+        min-height: 360px;
+      }
+
+      .contact-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 720px) {
+      .navbar {
+        align-items: center;
+        flex-direction: column;
+        gap: 12px;
+        padding: 12px 5%;
+      }
+
+      .logo {
+        font-size: 20px;
+        justify-content: center;
+        white-space: normal;
+      }
+
+      .logo img {
+        height: 44px;
+        width: 44px;
+      }
+
+      .nav-links {
+        background: var(--soft);
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        flex-wrap: wrap;
+        gap: 8px;
+        justify-content: center;
+        padding: 10px;
+        width: 100%;
+      }
+
+      .nav-links a {
+        border-radius: 999px;
+        font-size: 13px;
+        padding: 8px 9px;
+      }
+
+      .nav-cta {
+        padding: 8px 12px !important;
+      }
+
+      .hero,
+      .section,
+      .locations,
+      footer {
+        padding-left: 5%;
+        padding-right: 5%;
+      }
+
+      .hero {
+        background-position: center top;
+        min-height: auto;
+        padding-bottom: 52px;
+        padding-top: 52px;
+      }
+
+      .hero h1 {
+        font-size: clamp(34px, 11vw, 48px);
+      }
+
+      .hero p {
+        font-size: 16px;
+      }
+
+      .about-grid,
+      .service-grid,
+      .remarks-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .gallery-toolbar {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 12px;
+      }
+
+      .gallery-controls {
+        width: 100%;
+      }
+
+      .gallery-button {
+        border-radius: 8px;
+        flex: 1;
+      }
+
+      .gallery-viewport {
+        padding: 14px;
+      }
+
+      .gallery-track {
+        aspect-ratio: 4 / 5;
+        min-height: min(420px, 72vh);
+      }
+
+      .btn {
+        width: 100%;
+      }
+
+      .contact-card {
+        padding: 24px;
+      }
+    }
+
+    @media (max-width: 430px) {
+      .navbar {
+        padding: 10px 4%;
+      }
+
+      .logo {
+        font-size: 17px;
+        gap: 8px;
+      }
+
+      .logo img {
+        height: 38px;
+        width: 38px;
+      }
+
+      .nav-links {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .nav-links a {
+        font-size: 12px;
+        padding: 8px 6px;
+        text-align: center;
+      }
+
+      .hero,
+      .section,
+      .locations,
+      footer {
+        padding-left: 4%;
+        padding-right: 4%;
+      }
+
+      .hero {
+        padding-top: 48px;
+      }
+
+      .hero h1 {
+        font-size: 32px;
+      }
+
+      .section {
+        padding-bottom: 64px;
+        padding-top: 64px;
+      }
+
+      .section-header {
+        margin-bottom: 30px;
+      }
+
+      .section-header h2,
+      .locations h2,
+      .contact-card.feature h2 {
+        font-size: 29px;
+      }
+
+      .info-panel,
+      .service-card,
+      .contact-card,
+      .remark-card {
+        padding: 22px;
+      }
+
+      .gallery-track {
+        min-height: min(360px, 68vh);
+      }
+
+      .gallery-caption {
+        font-size: 13px;
+        padding: 44px 16px 16px;
+      }
+
+      .gallery-thumbnails {
+        grid-auto-columns: 72px;
+      }
+
+      .gallery-thumb {
+        height: 64px;
+      }
+
+      .contact-list a {
+        font-size: 14px;
+        overflow-wrap: anywhere;
+      }
+    }
+
+    /* 2026 visual refresh */
+    :root {
+      --navy: #081733;
+      --blue: #2563eb;
+      --gold: #f7b731;
+      --green: #16a34a;
+      --ink: #111827;
+      --muted: #667085;
+      --line: #d9e2ef;
+      --soft: #f4f7fb;
+      --white: #ffffff;
+      --coral: #ff6b6b;
+      --mint: #dff8ec;
+      --radius: 8px;
+      --shadow: 0 24px 70px rgba(8, 23, 51, 0.13);
+    }
+
+    body {
+      background:
+        radial-gradient(circle at top left, rgba(37, 99, 235, 0.08), transparent 34rem),
+        linear-gradient(180deg, #ffffff 0%, #f7faff 42%, #ffffff 100%);
+    }
+
+    .navbar {
+      backdrop-filter: blur(18px);
+      background: rgba(255, 255, 255, 0.82);
+      border-bottom: 1px solid rgba(217, 226, 239, 0.88);
+      box-shadow: 0 12px 40px rgba(8, 23, 51, 0.06);
+      padding-bottom: 14px;
+      padding-top: 14px;
+    }
+
+    .logo {
+      color: var(--ink);
+      letter-spacing: 0;
+    }
+
+    .logo img {
+      border: 2px solid rgba(255, 255, 255, 0.92);
+      box-shadow: 0 12px 30px rgba(8, 23, 51, 0.18);
+    }
+
+    .nav-links {
+      background: rgba(244, 247, 251, 0.78);
+      border: 1px solid rgba(217, 226, 239, 0.9);
+      border-radius: 999px;
+      gap: 4px;
+      padding: 6px;
+    }
+
+    .navbar-toggler {
+      background: rgba(244, 247, 251, 0.92);
+    }
+
+    .nav-links a {
+      border-radius: 999px;
+      color: #344054;
+      padding: 10px 14px;
+      transition: background 0.2s ease, color 0.2s ease, transform 0.2s ease;
+    }
+
+    .nav-links a:hover {
+      background: var(--white);
+      color: var(--blue);
+      transform: translateY(-1px);
+    }
+
+    .nav-links .nav-cta {
+      background: linear-gradient(135deg, var(--green), #22c55e);
+      box-shadow: 0 12px 26px rgba(22, 163, 74, 0.24);
+      padding-left: 18px;
+      padding-right: 18px;
+    }
+
+    .nav-links .nav-cta:hover,
+    .nav-links .nav-cta:focus {
+      background: linear-gradient(135deg, #15803d, #16a34a);
+      color: var(--white) !important;
+      box-shadow: 0 14px 30px rgba(22, 163, 74, 0.3);
+    }
+
+    .hero {
+      background:
+        linear-gradient(90deg, rgba(8, 23, 51, 0.86) 0%, rgba(8, 23, 51, 0.62) 46%, rgba(37, 99, 235, 0.08) 100%),
+        url("design-02.jpeg") center top/cover;
+      isolation: isolate;
+      min-height: calc(100vh - 82px);
+      overflow: hidden;
+      position: relative;
+    }
+
+    .hero::after {
+      background: linear-gradient(180deg, transparent, rgba(255, 255, 255, 0.95));
+      bottom: -1px;
+      content: "";
+      height: 120px;
+      left: 0;
+      pointer-events: none;
+      position: absolute;
+      right: 0;
+      z-index: -1;
+    }
+
+    .hero-content {
+      max-width: 820px;
+    }
+
+    .eyebrow {
+      background: rgba(255, 255, 255, 0.12);
+      border: 1px solid rgba(255, 255, 255, 0.22);
+      border-radius: 999px;
+      color: #ffe3a3;
+      display: inline-flex;
+      letter-spacing: 0;
+      padding: 8px 14px;
+      text-transform: none;
+    }
+
+    .hero h1 {
+      letter-spacing: 0;
+      max-width: 760px;
+      text-wrap: balance;
+    }
+
+    .hero p {
+      color: rgba(255, 255, 255, 0.88);
+      max-width: 640px;
+    }
+
+    .btn {
+      border-radius: var(--radius);
+      min-height: 52px;
+      padding: 14px 22px;
+    }
+
+    .btn-primary {
+      background: linear-gradient(135deg, var(--gold), #ffd166);
+      box-shadow: 0 18px 36px rgba(247, 183, 49, 0.28);
+    }
+
+    .btn-secondary {
+      background: rgba(255, 255, 255, 0.92);
+      box-shadow: 0 16px 34px rgba(8, 23, 51, 0.18);
+    }
+
+    .hero-stats {
+      display: grid;
+      gap: 12px;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      margin-top: 34px;
+      max-width: 680px;
+    }
+
+    .hero-stats div {
+      background: rgba(255, 255, 255, 0.12);
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      border-radius: var(--radius);
+      padding: 16px;
+    }
+
+    .hero-stats strong,
+    .hero-stats span {
+      display: block;
+    }
+
+    .hero-stats strong {
+      color: var(--white);
+      font-size: clamp(24px, 4vw, 38px);
+      line-height: 1;
+    }
+
+    .hero-stats span {
+      color: rgba(255, 255, 255, 0.76);
+      font-size: 13px;
+      margin-top: 7px;
+    }
+
+    .section {
+      position: relative;
+    }
+
+    .section-header {
+      max-width: 820px;
+    }
+
+    .section-header h2 {
+      letter-spacing: 0;
+      text-wrap: balance;
+    }
+
+    .info-panel,
+    .service-card,
+    .contact-card {
+      border: 1px solid rgba(217, 226, 239, 0.88);
+      border-radius: var(--radius);
+      box-shadow: 0 18px 48px rgba(8, 23, 51, 0.08);
+      transition: transform 0.22s ease, box-shadow 0.22s ease, border-color 0.22s ease;
+    }
+
+    .info-panel:hover,
+    .service-card:hover,
+    .contact-card:hover {
+      border-color: rgba(37, 99, 235, 0.22);
+      box-shadow: var(--shadow);
+      transform: translateY(-4px);
+    }
+
+    .services {
+      background:
+        linear-gradient(180deg, #f5f9ff 0%, #ffffff 100%);
+    }
+
+    .service-card {
+      background:
+        linear-gradient(180deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.82));
+      overflow: hidden;
+      position: relative;
+    }
+
+    .service-card::before {
+      background: linear-gradient(90deg, var(--blue), var(--green), var(--gold));
+      content: "";
+      height: 4px;
+      left: 0;
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+
+    .service-icon {
+      background: linear-gradient(135deg, #fff3ce, #dff8ec);
+      border-radius: var(--radius);
+      color: var(--navy);
+      font-size: 18px;
+      height: 52px;
+      width: 52px;
+    }
+
+    .service-card .badge {
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0;
+      padding: 8px 11px;
+    }
+
+    .gallery-showcase {
+      background: rgba(255, 255, 255, 0.88);
+      border-color: rgba(217, 226, 239, 0.9);
+      box-shadow: var(--shadow);
+    }
+
+    .gallery-toolbar {
+      background: rgba(244, 247, 251, 0.92);
+    }
+
+    .gallery-button {
+      background: var(--ink);
+      box-shadow: 0 12px 24px rgba(8, 23, 51, 0.18);
+    }
+
+    .gallery-button:hover {
+      background: var(--blue);
+    }
+
+    .gallery-viewport {
+      background:
+        radial-gradient(circle at top left, rgba(37, 99, 235, 0.15), transparent 28rem),
+        linear-gradient(135deg, #edf4ff, #fffaf0);
+    }
+
+    .gallery-track {
+      background: #071121;
+      box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.08);
+    }
+
+    .gallery-card img {
+      background: #071121;
+    }
+
+    .gallery-caption {
+      background: linear-gradient(180deg, rgba(7, 17, 33, 0), rgba(7, 17, 33, 0.88));
+    }
+
+    .gallery-thumb {
+      box-shadow: 0 8px 18px rgba(8, 23, 51, 0.09);
+    }
+
+    .remarks {
+      background:
+        radial-gradient(circle at 12% 0%, rgba(247, 183, 49, 0.15), transparent 24rem),
+        radial-gradient(circle at 90% 15%, rgba(37, 99, 235, 0.1), transparent 24rem),
+        #ffffff;
+    }
+
+    .remark-card {
+      transition: transform 0.22s ease, box-shadow 0.22s ease, border-color 0.22s ease;
+    }
+
+    .remark-card:hover {
+      border-color: rgba(247, 183, 49, 0.38);
+      box-shadow: var(--shadow);
+      transform: translateY(-4px);
+    }
+
+    .locations {
+      background:
+        linear-gradient(135deg, rgba(8, 23, 51, 0.94), rgba(37, 99, 235, 0.86)),
+        url("design-73.jpeg") center/cover;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .locations::before {
+      background: rgba(255, 255, 255, 0.08);
+      content: "";
+      inset: 18px;
+      pointer-events: none;
+      position: absolute;
+    }
+
+    .locations h2,
+    .locations p {
+      position: relative;
+    }
+
+    .contact {
+      background:
+        radial-gradient(circle at 82% 8%, rgba(37, 99, 235, 0.1), transparent 24rem),
+        radial-gradient(circle at 12% 92%, rgba(247, 183, 49, 0.12), transparent 22rem),
+        #fbfcff;
+    }
+
+    .contact-card.feature {
+      background:
+        linear-gradient(135deg, rgba(8, 23, 51, 0.96), rgba(37, 99, 235, 0.78)),
+        url("design-19.jpeg") center/cover;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .contact-card.feature::before {
+      background: linear-gradient(135deg, rgba(8, 23, 51, 0.52), rgba(8, 23, 51, 0.18));
+      content: "";
+      inset: 0;
+      position: absolute;
+    }
+
+    .contact-card.feature > * {
+      position: relative;
+    }
+
+    .contact .contact-card:not(.feature) {
+      background: #eef5ff;
+    }
+
+    .contact .contact-card:not(.feature):hover {
+      background: #e0edff;
+    }
+
+    .contact-list {
+      --bs-list-group-bg: #eef5ff;
+      --bs-list-group-action-hover-bg: #dbeafe;
+      --bs-list-group-action-hover-color: var(--navy);
+      --bs-list-group-action-active-bg: #cfe2ff;
+      --bs-list-group-action-active-color: var(--navy);
+    }
+
+    .contact-list a {
+      background: #eef5ff !important;
+      background-color: #eef5ff !important;
+      border-left: 0;
+      border-right: 0;
+      list-style: none;
+      transition: background 0.2s ease, border-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
+    }
+
+    .contact-list a:hover,
+    .contact-list a:focus,
+    .contact-list .list-group-item-action:hover,
+    .contact-list .list-group-item-action:focus {
+      background: #dbeafe !important;
+      background-color: #dbeafe !important;
+      border-color: rgba(37, 99, 235, 0.24);
+      color: var(--navy);
+      transform: translateX(4px);
+    }
+
+    footer {
+      background: #071121;
+    }
+
+    @media (max-width: 720px) {
+      .nav-links {
+        border-radius: var(--radius);
+      }
+
+      .hero {
+        min-height: auto;
+      }
+
+      .hero-stats {
+        grid-template-columns: 1fr;
+      }
+
+      .hero-stats div {
+        padding: 14px;
+      }
+    }
+
+    @media (max-width: 430px) {
+      .hero h1 {
+        font-size: 34px;
+      }
+
+      .hero-stats strong {
+        font-size: 26px;
+      }
+    }
+
+    .career-groups {
+      background:
+        linear-gradient(180deg, rgba(8, 23, 51, 0.04), rgba(255, 255, 255, 0.94)),
+        #ffffff;
+      display: grid;
+      gap: 18px;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .career-groups .section-header {
+      grid-column: 1 / -1;
+      max-width: 840px;
+    }
+
+    .career-family {
+      display: contents;
+      margin-bottom: 54px;
+    }
+
+    .career-family:last-child {
+      margin-bottom: 0;
+    }
+
+    .career-family-title {
+      align-items: center;
+      color: var(--navy);
+      display: none;
+      font-size: clamp(21px, 3vw, 30px);
+      gap: 12px;
+      letter-spacing: 0;
+      margin-bottom: 20px;
+    }
+
+    .career-family-title::before {
+      background: var(--gold);
+      border-radius: 999px;
+      content: "";
+      display: inline-block;
+      height: 12px;
+      width: 38px;
+    }
+
+    .career-card-grid {
+      display: contents;
+      gap: 22px;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .career-card {
+      background: #ffffff;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      box-shadow: 0 18px 44px rgba(8, 23, 51, 0.07);
+      display: flex;
+      flex-direction: column;
+      min-height: 100%;
+      opacity: 0;
+      overflow: hidden;
+      transform: translateY(28px) scale(0.96);
+      transition: border-color 0.25s ease, box-shadow 0.25s ease;
+    }
+
+    .career-card.is-visible {
+      animation: careerPop 0.62s cubic-bezier(0.2, 0.9, 0.2, 1.1) forwards;
+    }
+
+    .career-card.is-visible:hover {
+      border-color: rgba(37, 99, 235, 0.22);
+      box-shadow: 0 26px 64px rgba(8, 23, 51, 0.13);
+      transform: translateY(-4px) scale(1);
+    }
+
+    .career-copy {
+      padding: 24px 24px 20px;
+    }
+
+    .career-copy span {
+      align-items: center;
+      background: #eef4ff;
+      border: 1px solid #d9e6ff;
+      border-radius: 999px;
+      color: #174ea6;
+      display: inline-flex;
+      font-size: 13px;
+      font-weight: 800;
+      letter-spacing: 0.04em;
+      line-height: 1;
+      margin-bottom: 14px;
+      min-height: 30px;
+      padding: 8px 12px;
+      text-transform: uppercase;
+    }
+
+    .career-copy h3 {
+      color: var(--navy);
+      font-size: 23px;
+      line-height: 1.2;
+      margin-bottom: 10px;
+    }
+
+    .career-copy p {
+      color: #475467;
+      font-size: 15px;
+      line-height: 1.72;
+      margin-bottom: 0;
+    }
+
+    .career-photo {
+      background: #071121;
+      margin-top: auto;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .career-photo::after {
+      background: linear-gradient(180deg, transparent, rgba(7, 17, 33, 0.12));
+      content: "";
+      inset: 0;
+      pointer-events: none;
+      position: absolute;
+    }
+
+    .career-photo img {
+      aspect-ratio: 4 / 4.35;
+      height: 100%;
+      object-fit: cover;
+      object-position: center top;
+      transition: transform 0.45s ease;
+      width: 100%;
+    }
+
+    .career-card:hover .career-photo img {
+      transform: scale(1.05);
+    }
+
+    .video-highlights {
+      background: #f8fbff;
+      border-top: 1px solid var(--line);
+    }
+
+    .video-grid {
+      display: grid;
+      gap: 24px;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .video-card {
+      background: #ffffff;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      box-shadow: 0 18px 44px rgba(8, 23, 51, 0.08);
+      opacity: 0;
+      overflow: hidden;
+      position: relative;
+      transform: translateY(28px) scale(0.96);
+    }
+
+    .video-card.is-new {
+      border-color: #f59e0b;
+      box-shadow: 0 20px 48px rgba(245, 158, 11, 0.2);
+    }
+
+    .video-card.is-new::before {
+      background: #f59e0b;
+      border-radius: 999px;
+      color: #111827;
+      content: "NEW";
+      font-size: 12px;
+      font-weight: 900;
+      letter-spacing: 0.08em;
+      line-height: 1;
+      padding: 8px 12px;
+      position: absolute;
+      right: 14px;
+      text-transform: uppercase;
+      top: 14px;
+      z-index: 2;
+    }
+
+    .video-card.is-visible {
+      animation: careerPop 0.62s cubic-bezier(0.2, 0.9, 0.2, 1.1) forwards;
+    }
+
+    .video-frame {
+      background: #071121;
+      overflow: hidden;
+    }
+
+    .video-frame video {
+      aspect-ratio: 16 / 9;
+      background: #071121;
+      height: 100%;
+      object-fit: cover;
+      width: 100%;
+    }
+
+    .video-copy {
+      padding: 22px 24px 24px;
+    }
+
+    .video-copy span {
+      color: var(--blue);
+      display: block;
+      font-size: 13px;
+      font-weight: 800;
+      letter-spacing: 0.04em;
+      margin-bottom: 8px;
+      text-transform: uppercase;
+    }
+
+    .video-copy h3 {
+      color: var(--navy);
+      font-size: 22px;
+      line-height: 1.2;
+      margin-bottom: 8px;
+    }
+
+    .video-copy p {
+      color: #475467;
+      line-height: 1.7;
+      margin-bottom: 0;
+    }
+
+    .video-frame video {
+      object-fit: contain;
+    }
+
+    .latest-arrivals {
+      background:
+        linear-gradient(180deg, #ffffff 0%, #f6f9ff 100%);
+      border-top: 1px solid rgba(217, 226, 239, 0.9);
+    }
+
+    .quote-gallery {
+      background: #ffffff;
+      border-top: 1px solid rgba(217, 226, 239, 0.9);
+    }
+
+    .quote-layout {
+      display: grid;
+      gap: 18px;
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+    }
+
+    .quote-card img {
+      aspect-ratio: 4 / 5;
+      background: #ffffff;
+      object-fit: contain;
+      padding: 10px;
+    }
+
+    .latest-layout {
+      display: grid;
+      gap: 18px;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .latest-card {
+      background: #ffffff;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      box-shadow: 0 18px 44px rgba(8, 23, 51, 0.08);
+      color: inherit;
+      display: block;
+      overflow: hidden;
+      position: relative;
+      transition: border-color 0.22s ease, box-shadow 0.22s ease, transform 0.22s ease;
+    }
+
+    .latest-card:hover,
+    .latest-card:focus {
+      border-color: rgba(37, 99, 235, 0.28);
+      box-shadow: var(--shadow);
+      transform: translateY(-4px);
+    }
+
+    .latest-card img {
+      aspect-ratio: 4 / 4.4;
+      background: #071121;
+      height: 100%;
+      object-fit: cover;
+      object-position: center top;
+      width: 100%;
+    }
+
+    .latest-card.featured img {
+      aspect-ratio: 4 / 4.4;
+    }
+
+    .latest-caption {
+      background: linear-gradient(180deg, rgba(7, 17, 33, 0), rgba(7, 17, 33, 0.82));
+      bottom: 0;
+      color: #ffffff;
+      left: 0;
+      padding: 54px 18px 16px;
+      position: absolute;
+      right: 0;
+    }
+
+    .latest-caption span {
+      background: rgba(247, 183, 49, 0.96);
+      border-radius: 999px;
+      color: #201400;
+      display: inline-flex;
+      font-size: 12px;
+      font-weight: 800;
+      margin-bottom: 8px;
+      padding: 6px 10px;
+    }
+
+    .latest-caption h3 {
+      font-size: 20px;
+      line-height: 1.2;
+      margin: 0;
+    }
+
+    .latest-grid {
+      display: contents;
+    }
+
+    .latest-grid .latest-caption h3 {
+      font-size: 16px;
+    }
+
+    .latest-actions {
+      display: flex;
+      justify-content: center;
+      margin-top: 22px;
+    }
+
+    @keyframes careerPop {
+      0% {
+        opacity: 0;
+        transform: translateY(34px) scale(0.94);
+      }
+
+      65% {
+        opacity: 1;
+        transform: translateY(-4px) scale(1.015);
+      }
+
+      100% {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+      }
+    }
+
+    @media (max-width: 980px) {
+      .career-card-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .video-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .latest-layout {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+
+      .quote-layout {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+    }
+
+    @media (max-width: 640px) {
+      .career-card-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .career-copy {
+        padding: 22px;
+      }
+
+      .latest-layout {
+        gap: 10px;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+
+      .quote-layout {
+        gap: 10px;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .latest-card.featured img,
+      .latest-card img {
+        aspect-ratio: 1 / 1.08;
+      }
+
+      .latest-caption {
+        padding: 34px 8px 8px;
+      }
+
+      .latest-caption span {
+        font-size: 10px;
+        margin-bottom: 5px;
+        padding: 4px 7px;
+      }
+
+      .latest-caption h3,
+      .latest-grid .latest-caption h3 {
+        font-size: 12px;
+      }
+
+      .latest-actions .btn {
+        width: 100%;
+      }
+    }
+
+    /* Content-scaled spacing pass */
+    .hero {
+      min-height: clamp(560px, 72vh, 700px);
+      padding-bottom: clamp(54px, 7vw, 72px);
+      padding-top: clamp(58px, 8vw, 78px);
+    }
+
+    .hero::after {
+      height: 72px;
+    }
+
+    .hero h1 {
+      font-size: clamp(38px, 5.8vw, 68px);
+      margin-bottom: 16px;
+    }
+
+    .hero p {
+      line-height: 1.6;
+    }
+
+    .hero-actions {
+      margin-top: 24px;
+    }
+
+    .hero-stats {
+      margin-top: 24px;
+      max-width: 600px;
+    }
+
+    .hero-stats div {
+      padding: 13px 14px;
+    }
+
+    .hero-stats strong {
+      font-size: clamp(22px, 3vw, 32px);
+    }
+
+    .section {
+      padding-bottom: clamp(46px, 6vw, 68px);
+      padding-top: clamp(46px, 6vw, 68px);
+    }
+
+    .section-header {
+      margin-bottom: 28px;
+      max-width: 700px;
+    }
+
+    .section-header h2 {
+      font-size: clamp(27px, 3.4vw, 40px);
+      margin-bottom: 10px;
+    }
+
+    .section-header p {
+      font-size: 16px;
+      line-height: 1.55;
+    }
+
+    .about-grid,
+    .service-grid,
+    .contact-grid,
+    .remarks-grid,
+    .video-grid {
+      gap: 18px;
+    }
+
+    .info-panel,
+    .service-card,
+    .contact-card {
+      padding: 22px;
+    }
+
+    .info-panel h3,
+    .service-card h3,
+    .contact-card h3 {
+      font-size: 20px;
+      margin-bottom: 9px;
+    }
+
+    .info-panel p,
+    .service-card p,
+    .contact-card p {
+      line-height: 1.6;
+      margin-bottom: 0;
+    }
+
+    .service-icon {
+      height: 46px;
+      margin-bottom: 14px;
+      width: 46px;
+    }
+
+    .career-family {
+      margin-bottom: 36px;
+    }
+
+    .career-family-title {
+      font-size: clamp(20px, 2.4vw, 26px);
+      margin-bottom: 14px;
+    }
+
+    .career-card-grid {
+      gap: 18px;
+    }
+
+    .career-copy {
+      padding: 20px 20px 16px;
+    }
+
+    .career-copy span {
+      font-size: 12px;
+      margin-bottom: 10px;
+      min-height: 28px;
+      padding: 7px 10px;
+    }
+
+    .career-copy h3 {
+      font-size: 20px;
+      margin-bottom: 7px;
+    }
+
+    .career-copy p {
+      font-size: 14px;
+      line-height: 1.55;
+    }
+
+    .career-photo img {
+      aspect-ratio: 4 / 3.85;
+    }
+
+    .video-copy {
+      padding: 18px 20px 20px;
+    }
+
+    .video-copy h3 {
+      font-size: 20px;
+      margin-bottom: 6px;
+    }
+
+    .video-copy p {
+      line-height: 1.55;
+    }
+
+    .gallery-toolbar {
+      padding: 14px 16px;
+    }
+
+    .gallery-viewport {
+      padding: 16px;
+    }
+
+    .gallery-track {
+      min-height: clamp(300px, 45vw, 500px);
+    }
+
+    .gallery-progress {
+      margin: 0 16px 16px;
+    }
+
+    .gallery-thumbnails {
+      grid-auto-columns: 74px;
+      padding: 0 16px 16px;
+    }
+
+    .gallery-thumb {
+      height: 62px;
+    }
+
+    .remark-card {
+      padding: 24px;
+    }
+
+    .remark-card::before {
+      font-size: 48px;
+      top: 16px;
+    }
+
+    .remark-card p {
+      font-size: 16px;
+      line-height: 1.6;
+      padding-top: 34px;
+    }
+
+    .locations {
+      padding-bottom: clamp(42px, 6vw, 58px);
+      padding-top: clamp(42px, 6vw, 58px);
+    }
+
+    .locations h2 {
+      font-size: clamp(27px, 3.4vw, 38px);
+      margin-bottom: 12px;
+    }
+
+    .locations p {
+      font-size: 16px;
+      line-height: 1.65;
+      max-width: 760px;
+    }
+
+    .contact-card.feature h2 {
+      font-size: clamp(27px, 3.4vw, 38px);
+      margin-bottom: 12px;
+    }
+
+    .contact-card.feature p {
+      line-height: 1.6;
+      margin-bottom: 22px;
+    }
+
+    @media (max-width: 720px) {
+      .navbar {
+        display: grid;
+        grid-template-columns: 1fr auto;
+      }
+
+      .logo {
+        justify-content: flex-start;
+        justify-self: start;
+      }
+
+      .navbar-toggler {
+        justify-self: end;
+      }
+
+      .nav-links {
+        grid-column: 1 / -1;
+      }
+
+      .hero {
+        padding-bottom: 42px;
+        padding-top: 44px;
+      }
+
+      .hero h1 {
+        font-size: clamp(31px, 10vw, 42px);
+      }
+
+      .section {
+        padding-bottom: 42px;
+        padding-top: 42px;
+      }
+
+      .section-header {
+        margin-bottom: 22px;
+      }
+
+      .info-panel,
+      .service-card,
+      .contact-card,
+      .remark-card {
+        padding: 20px;
+      }
+
+      .career-family {
+        margin-bottom: 28px;
+      }
+
+      .career-photo img {
+        aspect-ratio: 4 / 3.5;
+      }
+
+      .gallery-track {
+        min-height: min(340px, 60vh);
+      }
+    }
+
+    @media (max-width: 430px) {
+      .hero {
+        padding-top: 36px;
+      }
+
+      .section {
+        padding-bottom: 36px;
+        padding-top: 36px;
+      }
+
+      .section-header h2,
+      .locations h2,
+      .contact-card.feature h2 {
+        font-size: 26px;
+      }
+
+      .gallery-track {
+        min-height: min(300px, 56vh);
+      }
+    }
+
+    /* Professional UI polish */
+    .section > .section-header,
+    .about-grid,
+    .service-grid,
+    .video-grid,
+    .latest-layout,
+    .quote-layout,
+    .latest-actions,
+    .gallery-showcase,
+    .remarks-grid,
+    .contact-grid {
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 1180px;
+    }
+
+    .section-header::before {
+      background: linear-gradient(90deg, var(--gold), var(--green), var(--blue));
+      border-radius: 999px;
+      content: "";
+      display: block;
+      height: 4px;
+      margin: 0 auto 16px;
+      width: 74px;
+    }
+
+    .navbar {
+      padding-left: max(5%, calc((100vw - 1180px) / 2));
+      padding-right: max(5%, calc((100vw - 1180px) / 2));
+    }
+
+    .hero-content {
+      margin-left: max(0px, calc((100vw - 1180px) / 2));
+    }
+
+    .btn {
+      gap: 8px;
+    }
+
+    .btn-primary::after,
+    .btn-secondary::after {
+      content: "\2192";
+      font-weight: 800;
+      line-height: 1;
+    }
+
+    .info-panel,
+    .service-card,
+    .career-card,
+    .video-card,
+    .latest-card,
+    .remark-card,
+    .contact-card,
+    .gallery-showcase {
+      border: 1px solid rgba(217, 226, 239, 0.78);
+      box-shadow: 0 14px 36px rgba(8, 23, 51, 0.08);
+    }
+
+    .career-groups {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .career-card {
+      isolation: isolate;
+      position: relative;
+    }
+
+    .career-card::before {
+      background: linear-gradient(90deg, var(--blue), var(--green), var(--gold));
+      content: "";
+      height: 4px;
+      left: 0;
+      position: absolute;
+      right: 0;
+      top: 0;
+      z-index: 2;
+    }
+
+    .career-copy {
+      min-height: 188px;
+    }
+
+    .career-photo img,
+    .latest-card img {
+      filter: saturate(1.04) contrast(1.01);
+    }
+
+    .latest-card::after {
+      background: rgba(255, 255, 255, 0.16);
+      border: 1px solid rgba(255, 255, 255, 0.28);
+      border-radius: 999px;
+      color: #ffffff;
+      content: "View";
+      font-size: 12px;
+      font-weight: 800;
+      opacity: 0;
+      padding: 7px 11px;
+      position: absolute;
+      right: 12px;
+      top: 12px;
+      transform: translateY(-6px);
+      transition: opacity 0.2s ease, transform 0.2s ease;
+      z-index: 2;
+    }
+
+    .latest-card:hover::after,
+    .latest-card:focus::after {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .photo-modal-content {
+      background: #ffffff;
+      border-radius: 8px;
+      box-shadow: 0 30px 90px rgba(8, 23, 51, 0.32);
+    }
+
+    .photo-modal-image {
+      background: #071121;
+      border-radius: 8px;
+      max-height: 78vh;
+      object-fit: contain;
+      width: 100%;
+    }
+
+    .gallery-showcase {
+      overflow: hidden;
+    }
+
+    .contact-list a {
+      border-radius: 8px !important;
+      margin-bottom: 10px;
+    }
+
+    @media (max-width: 980px) {
+      .career-groups {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+
+    @media (max-width: 720px) {
+      .career-groups {
+        grid-template-columns: 1fr;
+      }
+
+      .career-copy {
+        min-height: auto;
+      }
+
+      .hero-stats {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+    }
+
+    @media (max-width: 430px) {
+      .hero-stats {
+        grid-template-columns: 1fr;
+      }
+
+      .latest-caption h3,
+      .latest-grid .latest-caption h3 {
+        display: none;
+      }
+    }
+
+    /* Mobile gap cleanup */
+    @media (max-width: 720px) {
+      .navbar {
+        gap: 8px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+      }
+
+      .hero {
+        min-height: auto;
+        padding-bottom: 34px;
+        padding-top: 36px;
+      }
+
+      .hero h1 {
+        margin-bottom: 12px;
+      }
+
+      .hero p {
+        line-height: 1.5;
+      }
+
+      .hero-actions,
+      .hero-stats {
+        margin-top: 18px;
+      }
+
+      .section {
+        padding-bottom: 34px;
+        padding-top: 34px;
+      }
+
+      .section-header {
+        margin-bottom: 18px;
+      }
+
+      .section-header p {
+        line-height: 1.45;
+      }
+
+      .career-groups {
+        gap: 14px;
+      }
+
+      .career-copy {
+        padding-bottom: 14px;
+        padding-top: 18px;
+      }
+
+      .career-photo img {
+        aspect-ratio: 4 / 3.2;
+      }
+
+      .latest-layout {
+        gap: 8px;
+      }
+
+      .quote-layout {
+        gap: 8px;
+      }
+
+      .gallery-viewport {
+        padding: 10px;
+      }
+
+      .gallery-track {
+        aspect-ratio: 4 / 4.6;
+        min-height: min(300px, 54vh);
+      }
+
+      .locations {
+        padding-bottom: 34px;
+        padding-top: 34px;
+      }
+    }
+
+    @media (max-width: 430px) {
+      .hero {
+        padding-bottom: 30px;
+        padding-top: 30px;
+      }
+
+      .section {
+        padding-bottom: 30px;
+        padding-top: 30px;
+      }
+
+      .gallery-track {
+        min-height: min(260px, 50vh);
+      }
+
+      .contact-card.feature p {
+        margin-bottom: 16px;
+      }
+    }
+
+    /* Designer pass: denser product browsing and calmer section rhythm */
+    .remarks,
+    .contact {
+      background: #fbfcff;
+    }
+
+    .latest-arrivals {
+      background: #f7faff;
+    }
+
+    .latest-layout {
+      align-items: start;
+      display: grid;
+      gap: 14px;
+      grid-template-columns: repeat(auto-fill, minmax(152px, 1fr));
+    }
+
+    .latest-card {
+      border-color: rgba(217, 226, 239, 0.92);
+      box-shadow: 0 10px 28px rgba(8, 23, 51, 0.07);
+    }
+
+    .latest-card:hover,
+    .latest-card:focus {
+      border-color: rgba(17, 85, 204, 0.34);
+      box-shadow: 0 18px 40px rgba(8, 23, 51, 0.12);
+    }
+
+    .latest-card img,
+    .latest-card.featured img {
+      aspect-ratio: 3 / 4;
+      background: #edf2f7;
+      object-fit: cover;
+      object-position: center top;
+    }
+
+    .latest-caption {
+      background: linear-gradient(180deg, rgba(7, 17, 33, 0), rgba(7, 17, 33, 0.9));
+      padding: 44px 12px 12px;
+    }
+
+    .latest-caption span {
+      font-size: 10px;
+      margin-bottom: 6px;
+      padding: 5px 8px;
+    }
+
+    .latest-caption h3,
+    .latest-grid .latest-caption h3 {
+      font-size: 13px;
+      line-height: 1.25;
+    }
+
+    .quote-layout {
+      gap: 14px;
+    }
+
+    .quote-card img {
+      background: #f8fafc;
+      padding: 12px;
+    }
+
+    .video-card.is-new {
+      box-shadow: 0 18px 40px rgba(245, 158, 11, 0.16);
+    }
+
+    .contact-card h3 {
+      color: var(--navy);
+      font-size: 24px;
+      margin-bottom: 6px;
+    }
+
+    .contact-card .contact-intro {
+      color: var(--muted);
+      line-height: 1.6;
+      margin-bottom: 18px;
+    }
+
+    .contact-list {
+      gap: 12px;
+    }
+
+    .contact-list a.contact-item {
+      align-items: center;
+      background: #ffffff !important;
+      border: 1px solid rgba(217, 226, 239, 0.95);
+      border-radius: 8px !important;
+      display: grid;
+      gap: 12px;
+      grid-template-columns: auto minmax(0, 1fr) auto;
+      margin-bottom: 0;
+      padding: 14px;
+    }
+
+    .contact-list a.contact-item:hover,
+    .contact-list a.contact-item:focus {
+      background: #f8fbff !important;
+      border-color: rgba(17, 85, 204, 0.28);
+      transform: translateY(-2px);
+    }
+
+    .contact-badge {
+      align-items: center;
+      background: #eaf2ff;
+      border-radius: 8px;
+      color: var(--blue);
+      display: inline-flex;
+      font-size: 21px;
+      height: 42px;
+      justify-content: center;
+      width: 48px;
+    }
+
+    .contact-badge.whatsapp {
+      background: #e7f8ef;
+      color: #16a34a;
+    }
+
+    .contact-badge.phone {
+      background: #fff7df;
+      color: #b77900;
+    }
+
+    .contact-badge.facebook {
+      background: #eaf2ff;
+      color: #1877f2;
+    }
+
+    .contact-badge.tiktok {
+      background: #f5f7fb;
+      color: #111827;
+    }
+
+    .contact-detail {
+      min-width: 0;
+    }
+
+    .contact-label,
+    .contact-value {
+      display: block;
+    }
+
+    .contact-label {
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 700;
+      margin-bottom: 2px;
+      text-transform: uppercase;
+    }
+
+    .contact-value {
+      color: var(--navy);
+      font-size: 15px;
+      font-weight: 800;
+      overflow-wrap: anywhere;
+    }
+
+    .contact-action {
+      color: var(--blue);
+      font-size: 13px;
+      font-weight: 800;
+      white-space: nowrap;
+    }
+
+    @media (max-width: 720px) {
+      .latest-layout {
+        gap: 10px;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .latest-caption {
+        padding: 38px 9px 9px;
+      }
+
+      .contact-list a.contact-item {
+        grid-template-columns: auto minmax(0, 1fr);
+      }
+
+      .contact-action {
+        display: none;
+      }
+    }
+
+    @media (min-width: 1180px) {
+      .latest-layout {
+        grid-template-columns: repeat(6, minmax(0, 1fr));
+      }
+    }
+
+    /* Bootstrap-first responsive redesign */
+    body {
+      background: #f8fafc;
+    }
+
+    .navbar {
+      background: rgba(255, 255, 255, 0.94);
+      box-shadow: 0 10px 34px rgba(8, 23, 51, 0.08);
+      min-height: 76px;
+    }
+
+    .nav-links .nav-link {
+      border-radius: 999px;
+      padding: 9px 13px;
+      transition: background 0.18s ease, color 0.18s ease, transform 0.18s ease;
+    }
+
+    .nav-links .nav-link:hover,
+    .nav-links .nav-link:focus {
+      background: #eef5ff;
+      color: var(--blue);
+      transform: translateY(-1px);
+    }
+
+    .nav-links .nav-cta {
+      background: var(--green);
+      box-shadow: 0 12px 24px rgba(24, 169, 87, 0.22);
+      color: #ffffff !important;
+      padding-left: 18px;
+      padding-right: 18px;
+    }
+
+    .hero {
+      background:
+        linear-gradient(90deg, rgba(5, 18, 42, 0.9), rgba(17, 85, 204, 0.58)),
+        url("design-02.jpeg") center 24% / cover;
+      min-height: clamp(620px, 82vh, 780px);
+      padding-left: max(5%, calc((100vw - 1180px) / 2));
+      padding-right: max(5%, calc((100vw - 1180px) / 2));
+    }
+
+    .eyebrow {
+      border: 1px solid rgba(255, 255, 255, 0.24);
+      color: #ffe1a3;
+      padding: 9px 12px;
+    }
+
+    .hero-actions .btn {
+      box-shadow: 0 16px 34px rgba(8, 23, 51, 0.18);
+    }
+
+    .hero-stats {
+      max-width: 680px;
+    }
+
+    .hero-stats div {
+      border: 1px solid rgba(255, 255, 255, 0.16);
+      box-shadow: 0 16px 34px rgba(8, 23, 51, 0.16);
+    }
+
+    .section {
+      padding: clamp(56px, 7vw, 92px) max(5%, calc((100vw - 1180px) / 2));
+    }
+
+    .section-header {
+      margin-bottom: clamp(28px, 4vw, 46px);
+    }
+
+    .section-header p {
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 680px;
+    }
+
+    .about-grid,
+    .service-grid,
+    .career-card-grid,
+    .video-grid,
+    .remarks-grid,
+    .contact-grid {
+      gap: 18px;
+    }
+
+    .info-panel,
+    .service-card,
+    .career-card,
+    .video-card,
+    .latest-card,
+    .remark-card,
+    .contact-card,
+    .gallery-showcase {
+      border-radius: 8px;
+      box-shadow: 0 16px 38px rgba(8, 23, 51, 0.08);
+    }
+
+    .info-panel,
+    .service-card,
+    .remark-card,
+    .contact-card {
+      padding: clamp(22px, 3vw, 32px);
+    }
+
+    .service-grid {
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+
+    .service-card {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .service-icon {
+      border-radius: 8px;
+      font-size: 24px;
+    }
+
+    .career-groups {
+      background: #ffffff;
+    }
+
+    .career-family {
+      background: #f8fbff;
+      border: 1px solid rgba(217, 226, 239, 0.86);
+      border-radius: 8px;
+      padding: clamp(16px, 2vw, 22px);
+    }
+
+    .career-card-grid {
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    }
+
+    .career-card {
+      background: #ffffff;
+    }
+
+    .career-copy {
+      padding: 22px;
+    }
+
+    .video-grid {
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    }
+
+    .video-card {
+      background: #ffffff;
+    }
+
+    .quote-layout {
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    }
+
+    .latest-layout {
+      grid-template-columns: repeat(auto-fill, minmax(158px, 1fr));
+    }
+
+    .gallery-showcase {
+      border: 0;
+    }
+
+    .gallery-toolbar {
+      gap: 12px;
+    }
+
+    .gallery-button {
+      border-radius: 8px;
+      font-size: 18px;
+    }
+
+    .contact-grid {
+      align-items: stretch;
+      grid-template-columns: minmax(0, 1fr) minmax(340px, 0.82fr);
+    }
+
+    .contact-card.feature {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      min-height: 100%;
+    }
+
+    @media (max-width: 991.98px) {
+      .navbar {
+        align-items: center;
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) auto;
+        min-height: 68px;
+      }
+
+      .nav-links {
+        background: #ffffff;
+        border: 1px solid rgba(217, 226, 239, 0.9);
+        border-radius: 8px;
+        box-shadow: 0 18px 38px rgba(8, 23, 51, 0.1);
+        grid-column: 1 / -1;
+        margin-top: 12px;
+        padding: 10px;
+        width: 100%;
+      }
+
+      .nav-links .nav-link {
+        padding: 11px 12px;
+      }
+
+      .hero {
+        min-height: auto;
+        padding-bottom: 54px;
+        padding-top: 54px;
+      }
+
+      .about-grid,
+      .service-grid,
+      .contact-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .hero-stats {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+    }
+
+    @media (max-width: 767.98px) {
+      .logo {
+        font-size: 20px;
+        white-space: normal;
+      }
+
+      .logo img {
+        height: 44px;
+        width: 44px;
+      }
+
+      .hero h1 {
+        font-size: clamp(34px, 12vw, 48px);
+      }
+
+      .hero p {
+        font-size: 15px;
+      }
+
+      .hero-actions {
+        display: grid !important;
+        grid-template-columns: 1fr;
+      }
+
+      .hero-actions .btn,
+      .latest-actions .btn,
+      .contact-card.feature .btn {
+        width: 100%;
+      }
+
+      .hero-stats {
+        grid-template-columns: 1fr;
+      }
+
+      .section {
+        padding-bottom: 42px;
+        padding-top: 42px;
+      }
+
+      .section-header h2 {
+        font-size: clamp(26px, 8vw, 34px);
+      }
+
+      .service-grid,
+      .career-card-grid,
+      .video-grid,
+      .remarks-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .latest-layout {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .latest-caption h3,
+      .latest-grid .latest-caption h3 {
+        display: block;
+        font-size: 11px;
+      }
+
+      .gallery-toolbar {
+        align-items: stretch;
+        flex-direction: column;
+      }
+
+      .gallery-controls {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .gallery-button {
+        width: 100%;
+      }
+
+      .gallery-track {
+        aspect-ratio: 4 / 5;
+        min-height: 0;
+      }
+
+      .contact-list a.contact-item {
+        padding: 12px;
+      }
+    }
+
+    @media (max-width: 420px) {
+      .latest-layout,
+      .quote-layout {
+        grid-template-columns: 1fr;
+      }
+
+      .latest-card img,
+      .latest-card.featured img {
+        aspect-ratio: 4 / 3.7;
+      }
+
+      .contact-badge {
+        height: 38px;
+        width: 42px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg" aria-label="Primary navigation">
+    <a class="logo navbar-brand" href="#top">
+      <img src="logo.jpeg" alt="Austindee Ventures logo" />
+      Austindee <span>Ventures</span>
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#site-navigation" aria-controls="site-navigation" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="nav-links navbar-nav collapse navbar-collapse ms-lg-auto" id="site-navigation">
+      <a class="nav-link" href="#about">About</a>
+      <a class="nav-link" href="#services">Services</a>
+      <a class="nav-link" href="#careers">Careers</a>
+      <a class="nav-link" href="#videos">Videos</a>
+      <a class="nav-link" href="#quotes">Quotes</a>
+      <a class="nav-link" href="#latest">Featured</a>
+      <a class="nav-link" href="#gallery">Gallery</a>
+      <a class="nav-link" href="#remarks">Remarks</a>
+      <a class="nav-link nav-cta" href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-content">
+        <p class="eyebrow badge text-bg-light bg-opacity-10">Career day, graduation and school events</p>
+        <h1 class="display-1 fw-bold">Your kids' future is bright.</h1>
+        <p class="lead">
+          Beautiful career costumes, graduation gowns, and school event outfits
+          made for confident children and proud parents.
+        </p>
+
+        <div class="hero-actions d-flex flex-wrap">
+          <a class="btn btn-primary btn-lg" href="https://wa.me/233538051487" target="_blank" rel="noopener noreferrer"><i class="bi bi-whatsapp" aria-hidden="true"></i> Chat on WhatsApp</a>
+          <a class="btn btn-secondary btn-lg" href="tel:+233550633848"><i class="bi bi-telephone-fill" aria-hidden="true"></i> Call 0550633848</a>
+        </div>
+
+        <div class="hero-stats row g-3" aria-label="Austindee Ventures highlights">
+          <div class="col">
+            <strong>88</strong>
+            <span>Design photos</span>
+          </div>
+          <div class="col">
+            <strong>8+</strong>
+            <span>Service locations</span>
+          </div>
+          <div class="col">
+            <strong>2026</strong>
+            <span>School-ready style</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="section-header">
+        <h2>Outfits that make school moments memorable</h2>
+        <p>
+          Austindee Ventures helps children look smart, polished, and ready for
+          their big school celebrations.
+        </p>
+      </div>
+
+      <div class="about-grid row g-4">
+        <article class="info-panel card h-100 shadow-sm border-0">
+          <h3>Who we are</h3>
+          <p>
+            We provide career day outfits, graduation gowns, and school event
+            accessories for nursery, primary, and school programs across Ghana.
+          </p>
+        </article>
+
+        <article class="info-panel card h-100 shadow-sm border-0">
+          <h3>Why parents choose us</h3>
+          <p>
+            Parents trust us for neat finishing, beautiful styles, fair pricing,
+            and reliable service for important school events.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section services" id="services">
+      <div class="section-header">
+        <h2>What we offer</h2>
+        <p>Quality outfits and event materials for every child and every school occasion.</p>
+      </div>
+
+      <div class="service-grid row g-4">
+        <article class="service-card card h-100 shadow-sm border-0">
+          <div class="service-icon"><i class="bi bi-person-vcard" aria-hidden="true"></i></div>
+          <span class="badge rounded-pill text-bg-primary align-self-start mb-3">Popular</span>
+          <h3>Career day costumes</h3>
+          <p>Pilot, doctor, lawyer, engineer, police, nurse, chef, and more.</p>
+        </article>
+
+        <article class="service-card card h-100 shadow-sm border-0">
+          <div class="service-icon"><i class="bi bi-mortarboard-fill" aria-hidden="true"></i></div>
+          <span class="badge rounded-pill text-bg-warning align-self-start mb-3">Ceremony</span>
+          <h3>Graduation gowns</h3>
+          <p>Elegant gowns and accessories for nursery and primary graduations.</p>
+        </article>
+
+        <article class="service-card card h-100 shadow-sm border-0">
+          <div class="service-icon"><i class="bi bi-calendar-event" aria-hidden="true"></i></div>
+          <span class="badge rounded-pill text-bg-success align-self-start mb-3">Events</span>
+          <h3>School events</h3>
+          <p>Outfit support and materials for school ceremonies and programs.</p>
+        </article>
+
+        <article class="service-card card h-100 shadow-sm border-0">
+          <div class="service-icon"><i class="bi bi-patch-check-fill" aria-hidden="true"></i></div>
+          <span class="badge rounded-pill text-bg-info align-self-start mb-3">Value</span>
+          <h3>Affordable quality</h3>
+          <p>Smart, durable designs made to look good and fit your budget.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section career-groups" id="careers">
+      <div class="section-header">
+        <h2>Career day outfit collections</h2>
+        <p>Explore professionally arranged career outfits with clear descriptions and real photos for parents, schools, and event planners.</p>
+      </div>
+
+      <div class="career-family">
+        <h3 class="career-family-title">Healthcare heroes</h3>
+        <div class="career-card-grid">
+          <article class="career-card">
+            <div class="career-copy">
+              <span>Doctor</span>
+              <h3>Medical doctor</h3>
+              <p>A medical doctor practices medicine, diagnoses health conditions, treats patients, and guides families toward better care.</p>
+            </div>
+            <figure class="career-photo">
+              <img src="design-48.jpeg" alt="Child wearing a medical doctor career day outfit" loading="lazy" />
+            </figure>
+          </article>
+
+          <article class="career-card">
+            <div class="career-copy">
+              <span>Nurse</span>
+              <h3>Nurse</h3>
+              <p>A nurse cares for patients, gives medication, supports doctors, and helps hospitals and clinics run with compassion and skill.</p>
+            </div>
+            <figure class="career-photo">
+              <img src="design-44.jpeg" alt="Child wearing a nurse career day outfit" loading="lazy" />
+            </figure>
+          </article>
+
+          <article class="career-card">
+            <div class="career-copy">
+              <span>General nurse</span>
+              <h3>General nurse</h3>
+              <p>A general nurse handles many important healthcare duties, including wound care, patient education, and daily patient support.</p>
+            </div>
+            <figure class="career-photo">
+              <img src="design-45.jpeg" alt="Child wearing a general nurse career day outfit" loading="lazy" />
+            </figure>
+          </article>
+
+          <article class="career-card">
+            <div class="career-copy">
+              <span>Surgeon</span>
+              <h3>Surgeon</h3>
+              <p>A surgeon is a medical doctor trained to perform operations and solve serious health problems through careful surgical care.</p>
+            </div>
+            <figure class="career-photo">
+              <img src="design-60.jpeg" alt="Child wearing a surgeon career day outfit" loading="lazy" />
+            </figure>
+          </article>
+        </div>
+      </div>
+
+      <div class="career-family">
+        <h3 class="career-family-title">Security and service</h3>
+        <div class="career-card-grid">
+          <article class="career-card">
+            <div class="career-copy">
+              <span>Soldier</span>
+              <h3>Soldier</h3>
+              <p>A soldier serves in the military, protects the nation, follows disciplined training, and supports national security.</p>
+            </div>
+            <figure class="career-photo">
+              <img src="design-61.jpeg" alt="Child wearing a soldier career day outfit" loading="lazy" />
+            </figure>
+          </article>
+
+          <article class="career-card">
+            <div class="career-copy">
+              <span>Immigration</span>
+              <h3>Immigration officer</h3>
+              <p>An immigration officer handles visas, passports, and border control, helping protect and manage movement across the country.</p>
+            </div>
+            <figure class="career-photo">
+              <img src="design-37.jpeg" alt="Child wearing an immigration officer career day outfit" loading="lazy" />
+            </figure>
+          </article>
+
+          <article class="career-card">
+            <div class="career-copy">
+              <span>Police</span>
+              <h3>Police officer</h3>
+              <p>A police officer keeps the peace, enforces laws, protects citizens, and helps communities stay safe and orderly.</p>
+            </div>
+            <figure class="career-photo">
+              <img src="police-officer.jpeg" alt="Child wearing a police officer career day outfit" loading="eager" />
+            </figure>
+          </article>
+        </div>
+      </div>
+
+      <div class="career-family">
+        <h3 class="career-family-title">Aviation and law</h3>
+        <div class="career-card-grid">
+          <article class="career-card">
+            <div class="career-copy">
+              <span>Pilot</span>
+              <h3>Pilot</h3>
+              <p>A pilot flies aircraft, transports people or cargo, and takes responsibility for safety from takeoff to landing.</p>
+            </div>
+            <figure class="career-photo">
+              <img src="pilot.jpeg" alt="Child wearing a pilot career day outfit" loading="lazy" />
+            </figure>
+          </article>
+
+          <article class="career-card">
+            <div class="career-copy">
+              <span>Lawyer</span>
+              <h3>Lawyer</h3>
+              <p>A lawyer practices law, represents clients, gives legal advice, and prepares documents that help people navigate the justice system.</p>
+            </div>
+            <figure class="career-photo">
+              <img src="lawyer.jpeg" alt="Child wearing a lawyer career day outfit" loading="lazy" />
+            </figure>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section video-highlights" id="videos">
+      <div class="section-header">
+        <h2>Video highlights</h2>
+        <p>Watch short clips of Austindee Ventures outfits in motion, perfect for seeing the fitting, details, and presentation.</p>
+      </div>
+
+      <div class="video-grid">
+        <article class="video-card">
+          <div class="video-frame">
+            <video controls preload="metadata" playsinline>
+              <source src="career-day-presentation.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <div class="video-copy">
+            <span>Showcase video</span>
+            <h3>Career day presentation</h3>
+            <p>A closer look at selected career outfits and how they appear during school event moments.</p>
+          </div>
+        </article>
+
+        <article class="video-card">
+          <div class="video-frame">
+            <video controls preload="metadata" playsinline>
+              <source src="real-customer-display.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <div class="video-copy">
+            <span>Outfit details</span>
+            <h3>Real customer display</h3>
+            <p>See the outfit quality, styling, and event-ready finish through a real video preview.</p>
+          </div>
+        </article>
+
+        <article class="video-card is-new">
+          <div class="video-frame">
+            <video controls preload="metadata" playsinline>
+              <source src="customer-outfit-preview.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <div class="video-copy">
+            <span>New video</span>
+            <h3>Customer outfit preview</h3>
+            <p>A new look at Austindee Ventures outfit styling, details, and event-ready presentation.</p>
+          </div>
+        </article>
+
+        <article class="video-card is-new">
+          <div class="video-frame">
+            <video controls preload="metadata" playsinline>
+              <source src="outfit-showcase.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <div class="video-copy">
+            <span>New video</span>
+            <h3>Outfit showcase</h3>
+            <p>Another recent customer preview showing the finish and movement of the outfit.</p>
+          </div>
+        </article>
+
+        <article class="video-card is-new">
+          <div class="video-frame">
+            <video controls preload="metadata" playsinline>
+              <source src="latest-customer-display.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <div class="video-copy">
+            <span>New video</span>
+            <h3>Latest customer display</h3>
+            <p>A recent outfit display added for customers to watch directly from the video section.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section quote-gallery" id="quotes">
+      <div class="section-header">
+        <h2>Quotes</h2>
+      </div>
+
+      <div class="quote-layout" aria-label="Quote photos">
+        <a class="latest-card quote-card" href="quote-01.jpg" data-bs-toggle="modal" data-bs-target="#photoModal" data-photo-src="quote-01.jpg" data-photo-title="Quote 1" aria-label="View quote photo 1">
+          <img src="quote-01.jpg" alt="Quote photo 1" loading="lazy" />
+          <div class="latest-caption">
+            <span>Quote</span>
+            <h3>Quote 1</h3>
+          </div>
+        </a>
+
+        <a class="latest-card quote-card" href="quote-02.jpg" data-bs-toggle="modal" data-bs-target="#photoModal" data-photo-src="quote-02.jpg" data-photo-title="Quote 2" aria-label="View quote photo 2">
+          <img src="quote-02.jpg" alt="Quote photo 2" loading="lazy" />
+          <div class="latest-caption">
+            <span>Quote</span>
+            <h3>Quote 2</h3>
+          </div>
+        </a>
+
+        <a class="latest-card quote-card" href="quote-03.jpg" data-bs-toggle="modal" data-bs-target="#photoModal" data-photo-src="quote-03.jpg" data-photo-title="Quote 3" aria-label="View quote photo 3">
+          <img src="quote-03.jpg" alt="Quote photo 3" loading="lazy" />
+          <div class="latest-caption">
+            <span>Quote</span>
+            <h3>Quote 3</h3>
+          </div>
+        </a>
+
+        <a class="latest-card quote-card" href="quote-04.jpg" data-bs-toggle="modal" data-bs-target="#photoModal" data-photo-src="quote-04.jpg" data-photo-title="Quote 4" aria-label="View quote photo 4">
+          <img src="quote-04.jpg" alt="Quote photo 4" loading="lazy" />
+          <div class="latest-caption">
+            <span>Quote</span>
+            <h3>Quote 4</h3>
+          </div>
+        </a>
+
+        <a class="latest-card quote-card" href="quote-05.jpg" data-bs-toggle="modal" data-bs-target="#photoModal" data-photo-src="quote-05.jpg" data-photo-title="Quote 5" aria-label="View quote photo 5">
+          <img src="quote-05.jpg" alt="Quote photo 5" loading="lazy" />
+          <div class="latest-caption">
+            <span>Quote</span>
+            <h3>Quote 5</h3>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <section class="section latest-arrivals" id="latest">
+      <div class="section-header">
+        <h2>Featured outfits</h2>
+        <p>Browse outfit photos in a clean grid, then open any design for a closer view.</p>
+      </div>
+
+      <div class="latest-layout">
+        <a class="latest-card featured" href="pilot.jpeg" data-bs-toggle="modal" data-bs-target="#photoModal" data-photo-src="pilot.jpeg" data-photo-title="Pilot outfit" aria-label="View featured pilot outfit photo">
+          <img src="pilot.jpeg" alt="Featured Austindee Ventures pilot outfit photo" loading="lazy" />
+          <div class="latest-caption">
+            <span>Featured</span>
+            <h3>Pilot outfit</h3>
+          </div>
+        </a>
+
+        <div class="latest-grid" id="featured-outfit-grid" aria-label="Featured outfit photos">
+          <a class="latest-card" href="lawyer.jpeg" data-bs-toggle="modal" data-bs-target="#photoModal" data-photo-src="lawyer.jpeg" data-photo-title="Lawyer outfit" aria-label="View featured lawyer outfit photo">
+            <img src="lawyer.jpeg" alt="Featured Austindee Ventures lawyer outfit photo" loading="lazy" />
+            <div class="latest-caption">
+              <span>Featured</span>
+              <h3>Lawyer outfit</h3>
+            </div>
+          </a>
+
+          <a class="latest-card" href="police-officer.jpeg" data-bs-toggle="modal" data-bs-target="#photoModal" data-photo-src="police-officer.jpeg" data-photo-title="Police outfit" aria-label="View featured police outfit photo">
+            <img src="police-officer.jpeg" alt="Featured Austindee Ventures police outfit photo" loading="lazy" />
+            <div class="latest-caption">
+              <span>Featured</span>
+              <h3>Police outfit</h3>
+            </div>
+          </a>
+
+          <a class="latest-card" href="design-60.jpeg" data-bs-toggle="modal" data-bs-target="#photoModal" data-photo-src="design-60.jpeg" data-photo-title="Surgeon outfit" aria-label="View featured surgeon outfit photo">
+            <img src="design-60.jpeg" alt="Featured Austindee Ventures surgeon outfit photo" loading="lazy" />
+            <div class="latest-caption">
+              <span>Featured</span>
+              <h3>Surgeon outfit</h3>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="latest-actions">
+        <a class="btn btn-primary" href="#gallery">View all designs</a>
+      </div>
+    </section>
+
+    <section class="section" id="gallery">
+      <div class="section-header">
+        <h2>Our beautiful designs</h2>
+        <p>Real outfits from Austindee Ventures, ready for career day and graduation memories.</p>
+      </div>
+
+      <div class="gallery-showcase card" aria-label="Austindee Ventures photo gallery">
+        <div class="gallery-toolbar card-header">
+          <p class="gallery-count mb-0"><span id="gallery-current">1</span> of <span id="gallery-total">88</span> photos</p>
+
+          <div class="gallery-controls" aria-label="Gallery controls">
+            <button class="gallery-button btn" type="button" id="gallery-prev" aria-label="Previous photo"><i class="bi bi-chevron-left" aria-hidden="true"></i></button>
+            <button class="gallery-button btn" type="button" id="gallery-next" aria-label="Next photo"><i class="bi bi-chevron-right" aria-hidden="true"></i></button>
+          </div>
+        </div>
+
+        <div class="gallery-viewport" id="gallery-viewport">
+          <div class="gallery-track" id="gallery-track"></div>
+        </div>
+
+        <div class="gallery-progress" aria-hidden="true">
+          <span id="gallery-progress"></span>
+        </div>
+
+        <div class="gallery-thumbnails" id="gallery-thumbnails" aria-label="Choose gallery photo"></div>
+      </div>
+    </section>
+
+    <section class="section remarks" id="remarks">
+      <div class="section-header">
+        <h2>Customer remarks</h2>
+        <p>Kind words from parents and customers who trust Austindee Ventures.</p>
+      </div>
+
+      <div class="remarks-grid row g-4">
+        <article class="remark-card card h-100">
+          <p>
+            Your dresses were amazing. I bought them from the school when you
+            displayed them here.
+          </p>
+          <h3>Happy customer</h3>
+        </article>
+
+        <article class="remark-card card h-100">
+          <p>
+            We love it. Thank you so much. The quality is top-notch.
+          </p>
+          <h3>Happy customer</h3>
+        </article>
+      </div>
+    </section>
+
+    <section class="locations">
+      <h2>Find us near you</h2>
+      <p>
+        Visit us at Effiduasi, Oyoko Eye Clinic opposite, Kumasi, Ejisu, Accra,
+        Sunyani, Takoradi, Wa, and other locations near you.
+      </p>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="contact-grid row g-4">
+        <div class="contact-card feature card h-100">
+          <h2>Contact Austindee Ventures today</h2>
+          <p>
+            Get your child's career day, graduation, and school celebration
+            outfit prepared with care.
+          </p>
+          <a class="btn btn-primary btn-lg" href="https://wa.me/233538051487" target="_blank" rel="noopener noreferrer"><i class="bi bi-whatsapp" aria-hidden="true"></i> Order on WhatsApp</a>
+        </div>
+
+        <div class="contact-card card h-100">
+          <h3>Quick contacts</h3>
+          <p class="contact-intro">Choose the fastest way to reach Austindee Ventures for orders, questions, and social updates.</p>
+          <div class="contact-list list-group">
+            <a class="contact-item list-group-item list-group-item-action" href="https://wa.me/233538051487" target="_blank" rel="noopener noreferrer">
+              <span class="contact-badge whatsapp" aria-hidden="true"><i class="bi bi-whatsapp"></i></span>
+              <span class="contact-detail">
+                <span class="contact-label">WhatsApp orders</span>
+                <span class="contact-value">0538051487</span>
+              </span>
+              <span class="contact-action">Chat</span>
+            </a>
+            <a class="contact-item list-group-item list-group-item-action" href="tel:+233550633848">
+              <span class="contact-badge phone" aria-hidden="true"><i class="bi bi-telephone-fill"></i></span>
+              <span class="contact-detail">
+                <span class="contact-label">Phone call</span>
+                <span class="contact-value">0550633848</span>
+              </span>
+              <span class="contact-action">Call</span>
+            </a>
+            <a class="contact-item list-group-item list-group-item-action" href="https://www.facebook.com/share/1CSxvEYJFx/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer">
+              <span class="contact-badge facebook" aria-hidden="true"><i class="bi bi-facebook"></i></span>
+              <span class="contact-detail">
+                <span class="contact-label">Facebook</span>
+                <span class="contact-value">Austindee Ventures page</span>
+              </span>
+              <span class="contact-action">Open</span>
+            </a>
+            <a class="contact-item list-group-item list-group-item-action" href="https://www.tiktok.com/@danielkotey84" target="_blank" rel="noopener noreferrer">
+              <span class="contact-badge tiktok" aria-hidden="true"><i class="bi bi-tiktok"></i></span>
+              <span class="contact-detail">
+                <span class="contact-label">TikTok</span>
+                <span class="contact-value">@danielkotey84</span>
+              </span>
+              <span class="contact-action">View</span>
+            </a>
+            <a class="contact-item list-group-item list-group-item-action" href="https://www.tiktok.com/@afiarita0" target="_blank" rel="noopener noreferrer">
+              <span class="contact-badge tiktok" aria-hidden="true"><i class="bi bi-tiktok"></i></span>
+              <span class="contact-detail">
+                <span class="contact-label">TikTok</span>
+                <span class="contact-value">@afiarita0</span>
+              </span>
+              <span class="contact-action">View</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Austindee Ventures &copy; 2026. Your kids' future is bright.</p>
+  </footer>
+
+  <div class="modal fade" id="photoModal" tabindex="-1" aria-labelledby="photoModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+      <div class="modal-content photo-modal-content border-0">
+        <div class="modal-header border-0">
+          <h2 class="modal-title fs-5" id="photoModalLabel">Austindee Ventures design</h2>
+          <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body pt-0">
+          <img class="photo-modal-image" id="photoModalImage" src="" alt="Selected Austindee Ventures outfit photo" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    const galleryImages = [
+      "lawyer.jpeg",
+      "pilot.jpeg",
+      "police-officer.jpeg",
+      "police.jpeg",
+      "quote-01.jpg",
+      "quote-02.jpg",
+      "quote-03.jpg",
+      "quote-04.jpg",
+      "quote-05.jpg",
+      "design-01.jpeg",
+      "design-02.jpeg",
+      "design-03.jpeg",
+      "design-04.jpeg",
+      "design-05.jpeg",
+      "design-06.jpeg",
+      "design-07.jpeg",
+      "design-08.jpeg",
+      "design-09.jpeg",
+      "design-10.jpeg",
+      "design-11.jpeg",
+      "design-12.jpeg",
+      "design-13.jpeg",
+      "design-14.jpeg",
+      "design-15.jpeg",
+      "design-16.jpeg",
+      "design-17.jpeg",
+      "design-18.jpeg",
+      "design-19.jpeg",
+      "design-20.jpeg",
+      "design-21.jpeg",
+      "design-22.jpeg",
+      "design-23.jpeg",
+      "design-24.jpeg",
+      "design-25.jpeg",
+      "design-26.jpeg",
+      "design-27.jpeg",
+      "design-28.jpeg",
+      "design-29.jpeg",
+      "design-30.jpeg",
+      "design-31.jpeg",
+      "design-32.jpeg",
+      "design-33.jpeg",
+      "design-34.jpeg",
+      "design-35.jpeg",
+      "design-36.jpeg",
+      "design-37.jpeg",
+      "design-38.jpeg",
+      "design-39.jpeg",
+      "design-40.jpeg",
+      "design-41.jpeg",
+      "design-42.jpeg",
+      "design-43.jpeg",
+      "design-44.jpeg",
+      "design-45.jpeg",
+      "design-46.jpeg",
+      "design-47.jpeg",
+      "design-48.jpeg",
+      "design-49.jpeg",
+      "design-50.jpeg",
+      "design-51.jpeg",
+      "design-52.jpeg",
+      "design-53.jpeg",
+      "design-54.jpeg",
+      "design-55.jpeg",
+      "design-56.jpeg",
+      "design-57.jpeg",
+      "design-58.jpeg",
+      "design-59.jpeg",
+      "design-60.jpeg",
+      "design-61.jpeg",
+      "design-62.jpeg",
+      "design-63.jpeg",
+      "design-64.jpeg",
+      "design-65.jpeg",
+      "design-66.jpeg",
+      "design-67.jpeg",
+      "design-68.jpeg",
+      "design-69.jpeg",
+      "design-70.jpeg",
+      "design-71.jpeg",
+      "design-72.jpeg",
+      "design-73.jpeg",
+      "design-74.jpeg",
+      "design-75.jpeg",
+      "design-76.jpeg",
+      "design-77.jpeg",
+      "design-78.jpeg",
+      "design-79.jpeg"
+    ];
+
+    const featuredOutfitGrid = document.getElementById("featured-outfit-grid");
+    const featuredOutfitImages = new Set([
+      "pilot.jpeg",
+      "lawyer.jpeg",
+      "police-officer.jpeg",
+      "design-60.jpeg"
+    ]);
+
+    const getFeaturedTitle = (fileName, index) => {
+      if (fileName === "police.jpeg") return "Police outfit";
+      return `Featured outfit ${index + 1}`;
+    };
+
+    galleryImages
+      .filter((fileName) => !featuredOutfitImages.has(fileName) && !fileName.startsWith("quote-"))
+      .forEach((fileName, index) => {
+        if (!featuredOutfitGrid) return;
+
+        const title = getFeaturedTitle(fileName, index);
+        const card = document.createElement("a");
+        const image = document.createElement("img");
+        const caption = document.createElement("div");
+        const label = document.createElement("span");
+        const heading = document.createElement("h3");
+
+        card.className = "latest-card";
+        card.href = fileName;
+        card.setAttribute("data-bs-toggle", "modal");
+        card.setAttribute("data-bs-target", "#photoModal");
+        card.setAttribute("data-photo-src", fileName);
+        card.setAttribute("data-photo-title", title);
+        card.setAttribute("aria-label", `View ${title.toLowerCase()} photo`);
+
+        image.src = fileName;
+        image.alt = `${title} photo`;
+        image.loading = "lazy";
+
+        caption.className = "latest-caption";
+        label.textContent = "Featured";
+        heading.textContent = title;
+
+        caption.append(label, heading);
+        card.append(image, caption);
+        featuredOutfitGrid.appendChild(card);
+      });
+
+    const track = document.getElementById("gallery-track");
+    const viewport = document.getElementById("gallery-viewport");
+    const thumbnails = document.getElementById("gallery-thumbnails");
+    const currentLabel = document.getElementById("gallery-current");
+    const totalLabel = document.getElementById("gallery-total");
+    const progressBar = document.getElementById("gallery-progress");
+    const prevButton = document.getElementById("gallery-prev");
+    const nextButton = document.getElementById("gallery-next");
+    const photoModal = document.getElementById("photoModal");
+    const photoModalImage = document.getElementById("photoModalImage");
+    const photoModalLabel = document.getElementById("photoModalLabel");
+    const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    const careerCards = [...document.querySelectorAll(".career-card")];
+    const videoCards = [...document.querySelectorAll(".video-card")];
+    let currentIndex = 0;
+    let timer;
+
+    const revealCards = (cards) => {
+      cards.forEach((card, index) => {
+        window.setTimeout(() => {
+          card.classList.add("is-visible");
+        }, index * 260);
+      });
+    };
+
+    if ("IntersectionObserver" in window && !reduceMotion) {
+      const careerSection = document.getElementById("careers");
+      const careerObserver = new IntersectionObserver((entries) => {
+        if (!entries.some((entry) => entry.isIntersecting)) return;
+        revealCards(careerCards);
+        careerObserver.disconnect();
+      }, { threshold: 0.18 });
+
+      careerObserver.observe(careerSection);
+
+      const videoSection = document.getElementById("videos");
+      const videoObserver = new IntersectionObserver((entries) => {
+        if (!entries.some((entry) => entry.isIntersecting)) return;
+        revealCards(videoCards);
+        videoObserver.disconnect();
+      }, { threshold: 0.22 });
+
+      videoObserver.observe(videoSection);
+    } else {
+      careerCards.forEach((card) => card.classList.add("is-visible"));
+      videoCards.forEach((card) => card.classList.add("is-visible"));
+    }
+
+    totalLabel.textContent = galleryImages.length;
+
+    galleryImages.forEach((fileName, index) => {
+      const card = document.createElement("figure");
+      const image = document.createElement("img");
+      const caption = document.createElement("figcaption");
+      const thumbButton = document.createElement("button");
+      const thumbImage = document.createElement("img");
+
+      card.className = "gallery-card";
+      if (index === 0) card.classList.add("is-active");
+      image.src = fileName;
+      image.alt = `Austindee Ventures outfit photo ${index + 1}`;
+      image.loading = index < 4 ? "eager" : "lazy";
+      image.onerror = () => card.remove();
+      caption.className = "gallery-caption";
+      caption.textContent = `Austindee Ventures design ${index + 1}`;
+      card.appendChild(image);
+      card.appendChild(caption);
+      track.appendChild(card);
+
+      thumbButton.className = "gallery-thumb";
+      if (index === 0) thumbButton.classList.add("is-active");
+      thumbButton.type = "button";
+      thumbButton.setAttribute("aria-label", `Show photo ${index + 1}`);
+      thumbImage.src = fileName;
+      thumbImage.alt = "";
+      thumbImage.loading = "lazy";
+      thumbButton.appendChild(thumbImage);
+      thumbButton.addEventListener("click", () => {
+        stopAutoSlide();
+        showSlide(index);
+        startAutoSlide();
+      });
+      thumbnails.appendChild(thumbButton);
+    });
+
+    const showSlide = (index) => {
+      const cards = [...track.querySelectorAll(".gallery-card")];
+      const thumbs = [...thumbnails.querySelectorAll(".gallery-thumb")];
+      if (!cards.length) return;
+
+      currentIndex = (index + cards.length) % cards.length;
+      cards.forEach((card, cardIndex) => {
+        card.classList.toggle("is-active", cardIndex === currentIndex);
+      });
+      thumbs.forEach((thumb, thumbIndex) => {
+        const isActive = thumbIndex === currentIndex;
+        thumb.classList.toggle("is-active", isActive);
+        thumb.setAttribute("aria-current", isActive ? "true" : "false");
+      });
+      currentLabel.textContent = currentIndex + 1;
+      progressBar.style.width = `${((currentIndex + 1) / cards.length) * 100}%`;
+      thumbs[currentIndex]?.scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth", inline: "center", block: "nearest" });
+    };
+
+    const moveGallery = (direction) => {
+      showSlide(direction === "next" ? currentIndex + 1 : currentIndex - 1);
+    };
+
+    const startAutoSlide = () => {
+      if (reduceMotion) return;
+      stopAutoSlide();
+      timer = window.setInterval(() => moveGallery("next"), 2800);
+    };
+
+    const stopAutoSlide = () => {
+      window.clearInterval(timer);
+    };
+
+    prevButton.addEventListener("click", () => {
+      stopAutoSlide();
+      moveGallery("prev");
+      startAutoSlide();
+    });
+
+    nextButton.addEventListener("click", () => {
+      stopAutoSlide();
+      moveGallery("next");
+      startAutoSlide();
+    });
+
+    viewport.addEventListener("mouseenter", stopAutoSlide);
+    viewport.addEventListener("mouseleave", startAutoSlide);
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "ArrowRight") moveGallery("next");
+      if (event.key === "ArrowLeft") moveGallery("prev");
+    });
+
+    photoModal?.addEventListener("show.bs.modal", (event) => {
+      const trigger = event.relatedTarget;
+      const imageSource = trigger?.getAttribute("data-photo-src");
+      const imageTitle = trigger?.getAttribute("data-photo-title") || "Austindee Ventures design";
+      if (!imageSource || !photoModalImage || !photoModalLabel) return;
+
+      photoModalImage.src = imageSource;
+      photoModalImage.alt = imageTitle;
+      photoModalLabel.textContent = imageTitle;
+    });
+
+    photoModal?.addEventListener("hidden.bs.modal", () => {
+      if (!photoModalImage) return;
+      photoModalImage.src = "";
+    });
+
+    showSlide(0);
+    startAutoSlide();
+  </script>
+</body>
+</html>
